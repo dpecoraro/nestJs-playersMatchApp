@@ -9,6 +9,7 @@ import { JogadoresService } from './jogadores.service';
         [{ name: 'Jogador', schema: JogadorSchema }]
     )
     ],
+    exports: [JogadoresService],
     controllers: [JogadoresController],
     providers: [JogadoresService],
 })
